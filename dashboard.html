@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sports Betting Dashboard</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  .ranking {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  .content {
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 220px;
+  }
+  .match {
+    background-color: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+</style>
+</head>
+<body>
+<div class="navbar">User: <span id="username">Username</span></div>
+<div class="ranking">
+  <h4>Ranking</h4>
+  <div>1. User1 - 150pts</div>
+  <div>2. User2 - 145pts</div>
+  <!-- More rankings -->
+</div>
+<div class="content">
+  <div class="match">Match 1: Team A vs Team B - Score input here</div>
+  <div class="match">Match 2: Team C vs Team D - Score input here</div>
+  <!-- More matches -->
+</div>
+</body>
+</html>
