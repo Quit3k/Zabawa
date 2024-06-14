@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Bosho</title>
+    <script src="auth.js"></script>
+    <link rel="stylesheet" href="bosho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="flagiitp/logo11.ico">
+
+</head>
+<body>
+    <div id="nikos">Mati</div>
+    <div class="container">
+        <img src="flagiitp/dzien.png" class="background">
+    </div>
+    <div class="fixed-buttons">
+        <i id="escape-button" class="fa fa-times"></i>
+        <i id="return-button" class="fa fa-arrow-left" style="display:none;"></i>
+    </div>
+
+    <header class="navbar">
+        <div class="navbar-empty-left"></div>
+        <div class="navbar-content">
+            <div id="nick-container">
+                <span id="nick" title="czego tu szukasz?"></span>
+            </div>
+            <a id="page-title" href="ranking.html">Typy</a>
+            <div class="navbar-right">
+                <span id="info-icon" class="navbar-icon"><i class="fa-solid fa-circle-info"></i></span>
+                <span id="refresh-icon" class="navbar-icon"><i class="fa-solid fa-rotate-right"></i></span>
+                <img src="flagiitp/sowa.png" alt="Switch Theme" id="theme-switch-icon" class="navbar-icon">
+            </div>
+        </div>
+        <div class="navbar-empty-right"></div>
+    </header>
+    <div class="main-content">
+        <div class="content-wrapper">
+            <div class="matches-container">
+                <h2 class="kolejka">1 KOLEJKA</h2>
+                <h2 class="dataK">14.06.2024</h2>
+                <section class="matches">
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Q9YPy46c/#/szczegoly-meczu" id="match-link-1">Niemcy - Szkocja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-germany.png" alt="Flaga Niemiec" title="Deutschalnd Deutschalnd uber alles">
+                            <input type="text" id="team1-score-1a"  placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-1a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-scotland.png" alt="Flaga Szkocji">
+                        </div>
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Q9YPy46c/#/szczegoly-meczu" id="match-link-1">Niemcy - Szkocja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-germany.png" alt="Flaga Niemiec" title="Deutschalnd Deutschalnd uber alles">
+                            <input type="text" id="team1-score-1b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-1b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-scotland.png" alt="Flaga Szkocji">
+                        </div>
+                        <button id="save-button-1">Zapisz</button>
+                    </div>
+                    <div class="match"></div>
+                    <div class="match"></div>
+                </section>
+                <h2 class="dataK2">15.06.2024</h2>
+                <section class="matches">
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/KWXTzOL3/#/szczegoly-meczu" id="match-link-2">Węgry - Szwajcaria</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-hungary.png" alt="Flaga Węgier">
+                            <input type="text" id="team1-score-2a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-2a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-switzerland.png" alt="Flaga Szwajcarii" class="flag">
+                        </div>
+                    
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/KWXTzOL3/#/szczegoly-meczu" id="match-link-2">Węgry - Szwajcaria</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-hungary.png" alt="Flaga Węgier">
+                            <input type="text" id="team1-score-2b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-2b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-switzerland.png" alt="Flaga Szwajcarii" class="flag">
+                        </div>
+                        <button id="save-button-2">Zapisz</button>
+                     
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/QXGCSaTq/#/szczegoly-meczu" id="match-link-3">Hiszpania - Chorwacja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-spain.png" alt="Flaga Hiszpanii">
+                            <input type="text" id="team1-score-3a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-3a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-croatia.png" alt="Flaga Chorwacji">
+                        </div>
+                       
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/QXGCSaTq/#/szczegoly-meczu" id="match-link-3">Hiszpania - Chorwacja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-spain.png" alt="Flaga Hiszpanii">
+                            <input type="text" id="team1-score-3b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-3b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-croatia.png" alt="Flaga Chorwacji">
+                        </div>
+                        <button id="save-button-3">Zapisz</button>
+                   
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/8d6HRJrj/#/szczegoly-meczu" id="match-link-4">Włochy - Albania</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-italy.png" alt="Flaga Włoch">
+                            <input type="text" id="team1-score-4a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-4a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-albania.png" alt="Flaga Albanii">
+                        </div>
+                      
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/8d6HRJrj/#/szczegoly-meczu" id="match-link-4">Włochy - Albania</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-italy.png" alt="Flaga Włoch">
+                            <input type="text" id="team1-score-4b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-4b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-albania.png" alt="Flaga Albanii">
+                        </div>
+                        <button  id="save-button-4">Zapisz</button>
+               
+                    </div>
+                </section>
+                <h2>16.06.2024</h2>
+                <section class="matches">
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/vwtfSsT6/#/szczegoly-meczu" id="match-link-5">Polska - Holandia</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-poland.png" alt="Flaga Polski" title="Polska gurom!">
+                            <input type="text" id="team1-score-5a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-5a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-netherlands.png" alt="Flaga Holandii">
+                        </div>
+                  
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/vwtfSsT6/#/szczegoly-meczu" id="match-link-5">Polska - Holandia</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-poland.png" alt="Flaga Polski" title="Polska gurom!">
+                            <input type="text" id="team1-score-5b"  placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-5b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-netherlands.png" alt="Flaga Holandii">
+                        </div>
+                        <button  id="save-button-5">Zapisz</button>
+               
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/rZpKouzM/#/szczegoly-meczu" id="match-link-6">Słowenia - Dania</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-slovenia.png" alt="Flaga Słowenii">
+                            <input type="text" id="team1-score-6a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-6a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-denmark.png" alt="Flaga Danii" class="flag1">
+                        </div>
+                   
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/rZpKouzM/#/szczegoly-meczu" id="match-link-6">Słowenia - Dania</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-slovenia.png" alt="Flaga Słowenii">
+                            <input type="text" id="team1-score-6b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-6b"placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-denmark.png" alt="Flaga Danii" class="flag1">
+                        </div>
+                        <button id="save-button-6">Zapisz</button>
+             
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lCoGnLKF/#/szczegoly-meczu" id="match-link-7">Serbia - Anglia</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-serbia.png" alt="Flaga Serbii">
+                            <input type="text" id="team1-score-7a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-7a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-england.png" alt="Flaga Anglii">
+                        </div>
+           
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lCoGnLKF/#/szczegoly-meczu" id="match-link-7">Serbia - Anglia</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-serbia.png" alt="Flaga Serbii">
+                            <input type="text" id="team1-score-7b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-7b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-england.png" alt="Flaga Anglii">
+                        </div>
+                        <button id="save-button-7">Zapisz</button>
+            
+                    </div>
+                </section>
+                <h2>17.06.2024</h2>
+                <section class="matches">
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/GMyM2U3Q/#/szczegoly-meczu" id="match-link-8">Rumunia - Ukraina</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-romania.png" alt="Flaga Rumunii">
+                            <input type="text" id="team1-score-8a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-8a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-ukraine.png" alt="Flaga Ukrainy">
+                        </div>
+                  
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/GMyM2U3Q/#/szczegoly-meczu" id="match-link-8">Rumunia - Ukraina</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-romania.png" alt="Flaga Rumunii">
+                            <input type="text" id="team1-score-8b"placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-8b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-ukraine.png" alt="Flaga Ukrainy">
+                        </div>
+                        <button id="save-button-8">Zapisz</button>
+           
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/dxBg0vkF/#/szczegoly-meczu" id="match-link-9">Belgia - Słowacja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-belgium.png" alt="Flaga Belgii">
+                            <input type="text" id="team1-score-9a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-9a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-slovakia.png" alt="Flaga Słowacji">
+                        </div>
+               
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/dxBg0vkF/#/szczegoly-meczu" id="match-link-9">Belgia - Słowacja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-belgium.png" alt="Flaga Belgii">
+                            <input type="text" id="team1-score-9b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-9b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-slovakia.png" alt="Flaga Słowacji">
+                        </div>
+                        <button id="save-button-9">Zapisz</button>
+              
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/n7T2wHs2/#/szczegoly-meczu" id="match-link-10">Austria - Francja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-austria.png" alt="Flaga Austrii">
+                            <input type="text" id="team1-score-10a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-10a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-france.png" alt="Flaga Francji">
+                        </div>
+             
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/n7T2wHs2/#/szczegoly-meczu" id="match-link-10">Austria - Francja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-austria.png" alt="Flaga Austrii">
+                            <input type="text" id="team1-score-10b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-10b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-france.png" alt="Flaga Francji">
+                        </div>
+                        <button id="save-button-10">Zapisz</button>
+                
+                    </div>
+                </section>
+                <h2>18.06.2024</h2>
+                <section class="matches">
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/GUFZKHkT/#/szczegoly-meczu" id="match-link-11">Turcja - Gruzja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-turkey.png" alt="Flaga Turcji">
+                            <input type="text" id="team1-score-11a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-11a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-georgia.png" alt="Flaga Gruzji">
+                        </div>
+                    
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/GUFZKHkT/#/szczegoly-meczu" id="match-link-11">Turcja - Gruzja</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-turkey.png" alt="Flaga Turcji">
+                            <input type="text" id="team1-score-11b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-11b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-georgia.png" alt="Flaga Gruzji">
+                        </div>
+                        <button id="save-button-11">Zapisz</button>
+                  
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/fDjUgxSr/#/szczegoly-meczu" id="match-link-12">Portugalia - Czechy</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-portugal.png" alt="Flaga Portugalii">
+                            <input type="text" id="team1-score-12a" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-12a" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-czech.png" alt="Flaga Czech">
+                        </div>
+         
+                    </div>
+                    <div class="match">
+                        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/fDjUgxSr/#/szczegoly-meczu" id="match-link-12">Portugalia - Czechy</a></h3>
+                        <div class="score-entry">
+                            <img src="flagiitp/flag-portugal.png" alt="Flaga Portugalii">
+                            <input type="text" id="team1-score-12b" placeholder="Gole" maxlength="2">
+                            <span>:</span>
+                            <input type="text" id="team2-score-12b" placeholder="Gole" maxlength="2">
+                            <img src="flagiitp/flag-czech.png" alt="Flaga Czech">
+                        </div>
+                        <button id="save-button-12">Zapisz</button>
+                
+                    </div>
+                </section>
+                <h2 class="kolejka2">2 KOLEJKA</h2>
+                <h2 class="dataK">19.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/nm5LQwbd/#/szczegoly-meczu" id="match-link-13">Chorwacja - Albania</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-croatia.png" alt="Flaga Chorwacji">
+            <input type="text" id="team1-score-13a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-13a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-albania.png" alt="Flaga Albanii">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/nm5LQwbd/#/szczegoly-meczu" id="match-link-13">Chorwacja - Albania</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-croatia.png" alt="Flaga Chorwacji">
+            <input type="text"  id="team1-score-13b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text"  id="team2-score-13b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-albania.png" alt="Flaga Albanii">
+        </div>
+        <button id="save-button-13">Zapisz</button>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/GbRxZ1jG/#/szczegoly-meczu" id="match-link-14">Niemcy - Węgry</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-germany.png" alt="Flaga Niemiec" title="Deutschalnd Deutschalnd uber alles">
+            <input type="text" id="team1-score-14a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-14a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-hungary.png" alt="Flaga Węgier">
+        </div>
+ 
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/GbRxZ1jG/#/szczegoly-meczu" id="match-link-14">Niemcy - Węgry</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-germany.png" alt="Flaga Niemiec" title="Deutschalnd Deutschalnd uber alles">
+            <input type="text" id="team1-score-14b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-14b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-hungary.png" alt="Flaga Węgier">
+        </div>
+        <button id="save-button-14">Zapisz</button>
+ 
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/bNWXZsyA/#/szczegoly-meczu" id="match-link-15">Szkocja - Szwajcaria</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-scotland.png" alt="Flaga Szkocji">
+            <input type="text" id="team1-score-15a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-15a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-switzerland.png" alt="Flaga Szwajcarii" class="flag">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/bNWXZsyA/#/szczegoly-meczu" id="match-link-15">Szkocja - Szwajcaria</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-scotland.png" alt="Flaga Szkocji">
+            <input type="text" id="team1-score-15b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-15b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-switzerland.png" alt="Flaga Szwajcarii" class="flag">
+        </div>
+        <button id="save-button-15">Zapisz</button>
+
+    </div>
+</section>
+
+<h2>20.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/2JRjtJcq/#/szczegoly-meczu" id="match-link-16">Słowenia - Serbia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-slovenia.png" alt="Flaga Słowenii">
+            <input type="text" id="team1-score-16a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-16a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-serbia.png" alt="Flaga Serbii">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/2JRjtJcq/#/szczegoly-meczu" id="match-link-16">Słowenia - Serbia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-slovenia.png" alt="Flaga Słowenii">
+            <input type="text" id="team1-score-16b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-16b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-serbia.png" alt="Flaga Serbii">
+        </div>
+        <button id="save-button-16">Zapisz</button>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/MPqOpakS/#/szczegoly-meczu" id="match-link-17">Dania - Anglia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-denmark.png" alt="Flaga Danii" class="flag1">
+            <input type="text" id="team1-score-17a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-17a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-england.png" alt="Flaga Anglii">
+        </div>
+     
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/MPqOpakS/#/szczegoly-meczu" id="match-link-17">Dania - Anglia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-denmark.png" alt="Flaga Danii" class="flag1">
+            <input type="text" id="team1-score-17b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-17b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-england.png" alt="Flaga Anglii">
+        </div>
+        <button id="save-button-17">Zapisz</button>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Egg3kNzc/#/szczegoly-meczu" id="match-link-18">Hiszpania - Włochy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-spain.png" alt="Flaga Hiszpanii">
+            <input type="text" id="team1-score-18a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-18a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-italy.png" alt="Flaga Włoch">
+        </div>
+  
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Egg3kNzc/#/szczegoly-meczu" id="match-link-18">Hiszpania - Włochy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-spain.png" alt="Flaga Hiszpanii">
+            <input type="text" id="team1-score-18b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-18b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-italy.png" alt="Flaga Włoch">
+        </div>
+        <button id="save-button-18">Zapisz</button>
+
+    </div>
+</section>
+
+<h2>21.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/hrTmblCs/#/szczegoly-meczu" id="match-link-19">Słowacja - Ukraina</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-slovakia.png" alt="Flaga Słowacji">
+            <input type="text" id="team1-score-19a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-19a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-ukraine.png" alt="Flaga Ukrainy">
+        </div>
+  
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/hrTmblCs/#/szczegoly-meczu" id="match-link-19">Słowacja - Ukraina</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-slovakia.png" alt="Flaga Słowacji">
+            <input type="text" id="team1-score-19b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-19b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-ukraine.png" alt="Flaga Ukrainy">
+        </div>
+        <button id="save-button-19">Zapisz</button>
+    
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/YaubR1rD/#/szczegoly-meczu" id="match-link-20">Polska - Austria</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-poland.png" alt="Flaga Polski" title="Polska gurom!">
+            <input type="text" id="team1-score-20a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-20a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-austria.png" alt="Flaga Austrii">
+        </div>
+  
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/YaubR1rD/#/szczegoly-meczu" id="match-link-20">Polska - Austria</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-poland.png" alt="Flaga Polski" title="Polska gurom!">
+            <input type="text" id="team1-score-20b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-20b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-austria.png" alt="Flaga Austrii">
+        </div>
+        <button id="save-button-20">Zapisz</button>
+   
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lC7o20K2/#/szczegoly-meczu" id="match-link-21">Holandia - Francja</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-netherlands.png" alt="Flaga Holandii">
+            <input type="text" id="team1-score-21a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-21a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-france.png" alt="Flaga Francji">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lC7o20K2/#/szczegoly-meczu" id="match-link-21">Holandia - Francja</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-netherlands.png" alt="Flaga Holandii">
+            <input type="text" id="team1-score-21b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-21b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-france.png" alt="Flaga Francji">
+        </div>
+        <button id="save-button-21">Zapisz</button>
+    
+    </div>
+</section>
+
+<h2>22.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/MBh2Gybp/#/szczegoly-meczu" id="match-link-22">Gruzja - Czechy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-georgia.png" alt="Flaga Gruzji">
+            <input type="text" id="team1-score-22a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-22a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-czech.png" alt="Flaga Czech">
+        </div>
+   
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/MBh2Gybp/#/szczegoly-meczu" id="match-link-22">Gruzja - Czechy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-georgia.png" alt="Flaga Gruzji">
+            <input type="text" id="team1-score-22b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-22b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-czech.png" alt="Flaga Czech">
+        </div>
+        <button id="save-button-22">Zapisz</button>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lzjYhdsk/#/szczegoly-meczu" id="match-link-23">Turcja - Portugalia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-turkey.png" alt="Flaga Turcji">
+            <input type="text" id="team1-score-23a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-23a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-portugal.png" alt="Flaga Portugalii">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lzjYhdsk/#/szczegoly-meczu" id="match-link-23">Turcja - Portugalia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-turkey.png" alt="Flaga Turcji">
+            <input type="text" id="team1-score-23b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-23b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-portugal.png" alt="Flaga Portugalii">
+        </div>
+        <button id="save-button-23">Zapisz</button>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/zT9cab4L/#/szczegoly-meczu" id="match-link-24">Belgia - Rumunia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-belgium.png" alt="Flaga Belgii">
+            <input type="text" id="team1-score-24a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-24a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-romania.png" alt="Flaga Rumunii">
+        </div>
+     
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/zT9cab4L/#/szczegoly-meczu" id="match-link-24">Belgia - Rumunia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-belgium.png" alt="Flaga Belgii">
+            <input type="text" id="team1-score-24b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-24b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-romania.png" alt="Flaga Rumunii">
+        </div>
+        <button id="save-button-24">Zapisz</button>
+
+    </div>
+</section>
+<h2 class="kolejka2">3 KOLEJKA</h2>
+<h2 class="dataK">23.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lCPpXuLS/#/szczegoly-meczu" id="match-link-25">Szkocja - Węgry</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-scotland.png" alt="Flaga Szkocji">
+            <input type="text" id="team1-score-25a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-25a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-hungary.png" alt="Flaga Węgier">
+        </div>
+      
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/lCPpXuLS/#/szczegoly-meczu" id="match-link-25">Szkocja - Węgry</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-scotland.png" alt="Flaga Szkocji">
+            <input type="text" id="team1-score-25b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-25b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-hungary.png" alt="Flaga Węgier">
+        </div>
+        <button id="save-button-25">Zapisz</button>
+   
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/fkQtYL5M/#/szczegoly-meczu" id="match-link-26">Szwajcaria - Niemcy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-switzerland.png" alt="Flaga Szwajcarii" class="flag">
+            <input type="text" id="team1-score-26a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-26a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-germany.png" alt="Flaga Niemiec" title="Deutschalnd Deutschalnd uber alles">
+        </div>
+      
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/fkQtYL5M/#/szczegoly-meczu" id="match-link-26">Szwajcaria - Niemcy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-switzerland.png" alt="Flaga Szwajcarii" class="flag">
+            <input type="text" id="team1-score-26b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-26b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-germany.png" alt="Flaga Niemiec" title="Deutschalnd Deutschalnd uber alles">
+        </div>
+        <button id="save-button-26">Zapisz</button>
+ 
+    </div>
+</section>
+
+<h2>24.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/hph7lsj3/#/szczegoly-meczu" id="match-link-27">Albania - Hiszpania</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-albania.png" alt="Flaga Albanii">
+            <input type="text" id="team1-score-27a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-27a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-spain.png" alt="Flaga Hiszpanii">
+        </div>
+      
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/hph7lsj3/#/szczegoly-meczu" id="match-link-27">Albania - Hiszpania</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-albania.png" alt="Flaga Albanii">
+            <input type="text" id="team1-score-27b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-27b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-spain.png" alt="Flaga Hiszpanii">
+        </div>
+        <button id="save-button-27">Zapisz</button>
+  
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/z9sCm159/#/szczegoly-meczu" id="match-link-28">Chorwacja - Włochy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-croatia.png" alt="Flaga Chorwacji">
+            <input type="text" id="team1-score-28a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-28a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-italy.png" alt="Flaga Włoch">
+        </div>
+      
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/z9sCm159/#/szczegoly-meczu" id="match-link-28">Chorwacja - Włochy</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-croatia.png" alt="Flaga Chorwacji">
+            <input type="text" id="team1-score-28b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-28b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-italy.png" alt="Flaga Włoch">
+        </div>
+        <button id="save-button-28">Zapisz</button>
+
+    </div>
+</section>
+
+<h2>25.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Cjv2QLcJ/#/szczegoly-meczu" id="match-link-29">Francja - Polska</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-france.png" alt="Flaga Francji">
+            <input type="text" id="team1-score-29a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-29a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-poland.png" alt="Flaga Polski" title="Polska gurom!">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Cjv2QLcJ/#/szczegoly-meczu" id="match-link-29">Francja - Polska</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-france.png" alt="Flaga Francji">
+            <input type="text" id="team1-score-29b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-29b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-poland.png" alt="Flaga Polski" title="Polska gurom!">
+        </div>
+        <button id="save-button-29">Zapisz</button>
+ 
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/S26k1KZ8/#/szczegoly-meczu" id="match-link-30">Holandia - Austria</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-netherlands.png" alt="Flaga Holandii">
+            <input type="text" id="team1-score-30a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-30a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-austria.png" alt="Flaga Austrii">
+        </div>
+    
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/S26k1KZ8/#/szczegoly-meczu" id="match-link-30">Holandia - Austria</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-netherlands.png" alt="Flaga Holandii">
+            <input type="text" id="team1-score-30b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-30b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-austria.png" alt="Flaga Austrii">
+        </div>
+        <button id="save-button-30">Zapisz</button>
+   
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/tAQfuwDk/#/szczegoly-meczu" id="match-link-31">Anglia - Słowenia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-england.png" alt="Flaga Anglii">
+            <input type="text" id="team1-score-31a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-31a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-slovenia.png" alt="Flaga Słowenii">
+        </div>
+  
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/tAQfuwDk/#/szczegoly-meczu" id="match-link-31">Anglia - Słowenia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-england.png" alt="Flaga Anglii">
+            <input type="text" id="team1-score-31b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-31b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-slovenia.png" alt="Flaga Słowenii">
+        </div>
+        <button id="save-button-31">Zapisz</button>
+   
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/zXPbvcSe/#/szczegoly-meczu" id="match-link-32">Dania - Serbia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-denmark.png" alt="Flaga Danii" class="flag1">
+            <input type="text" id="team1-score-32a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-32a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-serbia.png" alt="Flaga Serbii">
+        </div>
+    
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/zXPbvcSe/#/szczegoly-meczu" id="match-link-32">Dania - Serbia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-denmark.png" alt="Flaga Danii" class="flag1">
+            <input type="text" id="team1-score-32b"  placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-32b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-serbia.png" alt="Flaga Serbii">
+        </div>
+        <button id="save-button-32">Zapisz</button>
+   
+    </div>
+</section>
+
+<h2>26.06.2024</h2>
+<section class="matches">
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Iia2bIJR/#/szczegoly-meczu" id="match-link-33">Słowacja - Rumunia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-slovakia.png" alt="Flaga Słowacji">
+            <input type="text" id="team1-score-33a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-33a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-romania.png" alt="Flaga Rumunii">
+        </div>
+     
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/Iia2bIJR/#/szczegoly-meczu" id="match-link-33">Słowacja - Rumunia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-slovakia.png" alt="Flaga Słowacji">
+            <input type="text" id="team1-score-33b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-33b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-romania.png" alt="Flaga Rumunii">
+        </div>
+        <button id="save-button-33">Zapisz</button>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/z7Ihc8Rm/#/szczegoly-meczu" id="match-link-34">Ukraina - Belgia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-ukraine.png" alt="Flaga Ukrainy">
+            <input type="text" id="team1-score-34a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-34a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-belgium.png" alt="Flaga Belgii">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/z7Ihc8Rm/#/szczegoly-meczu" id="match-link-34">Ukraina - Belgia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-ukraine.png" alt="Flaga Ukrainy">
+            <input type="text" id="team1-score-34b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-34b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-belgium.png" alt="Flaga Belgii">
+        </div>
+        <button id="save-button-34">Zapisz</button>
+     
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/SQlxhGde/#/szczegoly-meczu" id="match-link-35">Czechy - Turcja</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-czech.png" alt="Flaga Czech">
+            <input type="text" id="team1-score-35a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-35a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-turkey.png" alt="Flaga Turcji">
+        </div>
+      
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/SQlxhGde/#/szczegoly-meczu" id="match-link-35">Czechy - Turcja</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-czech.png" alt="Flaga Czech">
+            <input type="text" id="team1-score-35b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-35b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-turkey.png" alt="Flaga Turcji">
+        </div>
+        <button id="save-button-35">Zapisz</button>
+  
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/02i6FeDj/#/szczegoly-meczu" id="match-link-36">Gruzja - Portugalia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-georgia.png" alt="Flaga Gruzji">
+            <input type="text" id="team1-score-36a" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" id="team2-score-36a" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-portugal.png" alt="Flaga Portugalii">
+        </div>
+
+    </div>
+    <div class="match">
+        <h3 class="match-title"><a href="https://www.flashscore.pl/mecz/02i6FeDj/#/szczegoly-meczu" id="match-link-36">Gruzja - Portugalia</a></h3>
+        <div class="score-entry">
+            <img src="flagiitp/flag-georgia.png" alt="Flaga Gruzji">
+            <input type="text"  id="team1-score-36b" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text"  id="team2-score-36b" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/flag-portugal.png" alt="Flaga Portugalii">
+        </div>
+        <button id="save-button-36">Zapisz</button>
+    
+    </div>
+    <div class="match"></div>
+    <div class="match"></div>
+</section>
+<h2 class="admin-only">1/8</h2>
+<h2 class="admin-only">29.06.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    </section>
+    <h2 class="admin-only">30.06.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    </section>
+    <h2 class="admin-only">01.07.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    </section>
+    <h2 class="admin-only">02.07.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    </section>
+<h2 class="admin-only">ĆWIERĆFINAŁY</h2>
+<h2 class="admin-only">05.07.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    </section>
+    <h2 class="admin-only">06.07.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Ukrainy">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Belgii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    </section> 
+<h2  class="admin-only">PÓŁFINAŁY</h2>
+<h2  class="admin-only">09.07.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match"></div>
+    <div class="match"></div>
+    </section>
+    <h2 class="admin-only">10.07.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match"></div>
+    <div class="match"></div>
+    </section>
+<h2  class="admin-only">FINAŁ</h2>
+<h2 class="admin-only">14.07.2024</h2>
+<section class="matches admin-only">
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match">
+        <h3>x - x</h3>
+        <div class="score-entry">
+            <img src="flagiitp/" alt="Flaga Słowacji">
+            <input type="text" placeholder="Gole" maxlength="2">
+            <span>:</span>
+            <input type="text" placeholder="Gole" maxlength="2">
+            <img src="flagiitp/" alt="Flaga Rumunii">
+        </div>
+        <button>Zapisz</button>
+        <button>Odblokuj</button>
+    </div>
+    <div class="match"></div>
+    <div class="match"></div>
+    <div id="spacer">
+        <audio id="background-music" src="lala.mp3"></audio>
+    </div>
+
+    
+    </section>
+   
+            </div>
+            <div class="ranking-placeholder"></div>
+        </div>
+    </div>
+    <aside class="ranking">
+        <h4>Ranking</h4>
+        <table id="ranking-table">
+            <thead>
+                <tr>
+                    <th>Msc</th>
+                    <th>Użytkownik</th>
+                    <th>Punkty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Użytkownik1</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Użytkownik2</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Użytkownik2</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Użytkownik2</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Użytkownik1</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Użytkownik2</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Użytkownik2</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Użytkownik2</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+
+    <footer class="footer">
+        <p>@NMP</p>
+    </footer>
+      <!-- Popup -->
+  <div id="info-popup" class="popup">
+    <div id="popup-content" class="popup-content">
+        <span id="close-popup" class="close">&times;</span>
+        <h2 id="popup-title">Co masz robić?</h2>
+        <p id="popup-text">
+            Wypełniasz wynik meczu w prawym kafelku, po czym go zapisujesz. Wynik w lewym kafelku pojawi się po zakończonym meczu, możesz sprawdzić punkty oraz typy innych klikająć na "Typy" w nawigacji. Oprócz tego "m" włącza muzyke, "w", "a", "s", "d" steruje wysokością strony, w prawym górnym rogu (pod nawigacją) jest niewidoczny przycisk który wyłącza ranking, sową zmieniasz theme strony. Reszta wkrótce! AAAA i każdy mecz można sprawdzić klikając w nazwę!
+        </p>
+        <!-- <table id="example-table-1">
+            <thead>
+                <tr>
+                    <th id="example-match">Mecz</th>
+                    <th id="example-score">Wynik</th>
+                    <th id="example-your-score">Twój wynik</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="example-match-1">Polska - Austria</td>
+                    <td id="example-score-1">4:1</td>
+                    <td id="example-your-score-1" style="font-weight: bold; color: rgb(9, 163, 9);">4:1</td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="popup-text">
+            Za poprawne wytypowanie zwycięzcy lub remisu otrzymujesz 2pkt:
+        </p>
+        <table id="example-table-1">
+            <thead>
+                <tr>
+                    <th id="example-match">Mecz</th>
+                    <th id="example-score">Wynik</th>
+                    <th id="example-your-score">Twój wynik</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="example-match-2">Polska - Austria</td>
+                    <td id="example-score-2">4:1</td>
+                    <td id="example-your-score-2" style="font-weight: bold;">3:2</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td id="example-match-2">Niemcy - Francja</td>
+                    <td id="example-score-2">2:2</td>
+                    <td id="example-your-score-2" style="font-weight: bold;">3:3</td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="popup-text">
+            ddd 
+        </p>
+        <p id="popup-text">
+            Dodatkowo za wytypowanie top 4 będzie tak jak rok temu 18 pkt dodatkowych. Jednak tym razem będzie to po 6 pkt za wskazanie 1 i 2 miejsca oraz po 3 pkt za wskazanie pozostałych półfinalistów, którzy NIE DOSTANĄ się do finału (ponieważ w Euro nie ma meczu o 3 miejsce), więc żebyście nie płakali: „ojejku źle wytypowałem kto będzie w finale ale przecież to jest półfinalista to powinienem dostać punkty!”. Miłej zabawy!
+        </p>
+    </div> -->
+</div>
+
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getDatabase, ref, update, get, child } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyB0wkDBBVfKLo54RCYKV5xmsW78gITFXJc",
+        authDomain: "nmp-zabawa.firebaseapp.com",
+        databaseURL: "https://nmp-zabawa-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "nmp-zabawa",
+        storageBucket: "nmp-zabawa",
+        messagingSenderId: "905773290125",
+        appId: "1:905773290125:web:cfe40b8b155ab491e1c8c4"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+
+    // Function to update the prediction in Firebase
+    function updatePrediction(matchId, username, prediction) {
+        const predictionRef = ref(database, `matches/${matchId}/predictions/${username}`);
+        return update(predictionRef, { result: prediction });
+    }
+
+    // Function to get match predictions from Firebase
+    function getMatchPredictions(username) {
+        const dbRef = ref(database);
+        get(child(dbRef, 'matches')).then((snapshot) => {
+            if (snapshot.exists()) {
+                const matches = snapshot.val();
+                Object.keys(matches).forEach(matchId => {
+                    const adminResult = matches[matchId].result;
+                    if (adminResult) {
+                        const [adminTeam1Score, adminTeam2Score] = adminResult.split(':');
+                        const adminTeam1Input = document.getElementById(`team1-score-${matchId.split('match')[1]}a`);
+                        const adminTeam2Input = document.getElementById(`team2-score-${matchId.split('match')[1]}a`);
+                        if (adminTeam1Input && adminTeam2Input) {
+                            adminTeam1Input.value = adminTeam1Score;
+                            adminTeam2Input.value = adminTeam2Score;
+                            blockInputFieldsAdmin(matchId.split('match')[1]);
+                        }
+                    }
+
+                    const userPrediction = matches[matchId].predictions[username];
+                    if (userPrediction && userPrediction.result) {
+                        const [team1Score, team2Score] = userPrediction.result.split(':');
+                        const team1Input = document.getElementById(`team1-score-${matchId.split('match')[1]}b`);
+                        const team2Input = document.getElementById(`team2-score-${matchId.split('match')[1]}b`);
+                        if (team1Input && team2Input) {
+                            team1Input.value = team1Score;
+                            team2Input.value = team2Score;
+                            blockInputFieldsUser(matchId.split('match')[1]);
+                            hideSaveButton(matchId.split('match')[1]);
+                        }
+                    }
+                });
+            } else {
+                console.log("No data available");
+            }
+        }).catch((error) => {
+            console.error(error);
+        });
+    }
+
+    // Function to block input fields for admin
+    function blockInputFieldsAdmin(matchId) {
+        const team1Input = document.getElementById(`team1-score-${matchId}a`);
+        const team2Input = document.getElementById(`team2-score-${matchId}a`);
+        if (team1Input && team2Input) {
+            team1Input.readOnly = true;
+            team2Input.readOnly = true;
+        } else {
+            console.error(`Cannot block admin inputs, elements not found for matchId: ${matchId}`);
+        }
+    }
+
+    // Function to block input fields for user
+    function blockInputFieldsUser(matchId) {
+        const team1Input = document.getElementById(`team1-score-${matchId}b`);
+        const team2Input = document.getElementById(`team2-score-${matchId}b`);
+        if (team1Input && team2Input) {
+            team1Input.readOnly = true;
+            team2Input.readOnly = true;
+        } else {
+            console.error(`Cannot block user inputs, elements not found for matchId: ${matchId}`);
+        }
+    }
+
+    // Function to hide save button
+    function hideSaveButton(matchId) {
+        const saveButton = document.getElementById(`save-button-${matchId}`);
+        if (saveButton) {
+            saveButton.style.display = 'none';
+        } else {
+            console.error(`Cannot hide save button, element not found for matchId: ${matchId}`);
+        }
+    }
+
+    // Call this function to populate predictions on page load
+    document.addEventListener('DOMContentLoaded', () => {
+        const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+        if (loggedInUser && loggedInUser.username) {
+            getMatchPredictions(loggedInUser.username);
+        }
+    });
+
+    // Add event listeners for save buttons
+    document.querySelectorAll('[id^="save-button-"]').forEach(button => {
+        button.addEventListener('click', function () {
+            const matchId = this.id.split('-')[2];
+            const team1Score = document.getElementById(`team1-score-${matchId}b`).value;
+            const team2Score = document.getElementById(`team2-score-${matchId}b`).value;
+            const prediction = `${team1Score}:${team2Score}`;
+            const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+            if (loggedInUser && loggedInUser.username) {
+                updatePrediction(`match${matchId}`, loggedInUser.username, prediction).then(() => {
+                    blockInputFieldsUser(matchId);
+                    hideSaveButton(matchId);
+                });
+            }
+        });
+    });
+
+</script>
+
+
+
+
+
+    <script src="bosho.js"></script>
+</body>
+</html>

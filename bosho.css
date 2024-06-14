@@ -1,0 +1,651 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #60adffbe;
+    color: white;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-empty-left, .navbar-empty-right {
+    width: 11.75vw;
+}
+
+.navbar-content {
+    width: 76.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #nick {
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+} */
+
+#nick-container {
+    display: flex;
+    align-items: center;
+    width: 150px; /* Stała szerokość kontenera */
+    overflow: hidden; /* Ukryj tekst wychodzący poza kontener */
+}
+
+#nick {
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid rgb(0, 0, 0); /* Kreska na końcu tekstu */
+    animation: typing 4s steps(30, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% } /* Animuj do pełnej szerokości kontenera */
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0) }
+}
+
+#page-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#page-title:hover {
+    color: white;
+    text-decoration: none; /* Podkreślenie przy najechaniu myszką */
+}
+#page-title:visited {
+    color: white; /* Utrzymuje kolor po kliknięciu */
+    text-decoration: none; /* Usuwa podkreślenie po kliknięciu */
+}
+#page-title:active {
+    color: white; /* Utrzymuje kolor podczas aktywności (kliknięcia) */
+    text-decoration: none; /* Usuwa podkreślenie podczas aktywności */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 150px;
+}
+
+.navbar-icon {
+    font-size: 24px; /* Ustawiono rozmiar ikon */
+    margin-left: 20px;
+    cursor: pointer;
+    color: white; /* Ustawiono biały kolor ikon */
+}
+
+.navbar-icon i {
+    font-size: 24px; /* Ustawiono rozmiar ikon */
+    color: white; /* Ustawiono biały kolor ikon */
+}
+
+#theme-switch-icon {
+    width: 30px; /* Ustawiono szerokość sowy */
+    height: 30px; /* Ustawiono wysokość sowy */
+    cursor: pointer;
+    filter: invert(100%); /* Ustawiono biały kolor sowy */
+}
+
+/* .navbar {
+    background-color: #60adff;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.main-content {
+    padding-top: 8vh;
+    display: flex;
+    height: 92vh;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.matches-container {
+    width: 74vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ranking-placeholder {
+    width: 26vw;
+}
+
+.matches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(35vw - 10px); /* Szerokość połowy matches, uwzględniając odstęp */
+    background: rgba(255, 255, 255, 0.449);
+    box-shadow: 0 1px 1px #60adffbe, 0 2px 2px #60adffbe;
+}
+
+.match h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* //linki do flash  */
+
+.match-title a {    
+    text-decoration: none; /* Usuwa podkreślenie linku */
+}
+
+.match-title a:hover {
+    text-decoration: none; /* Podkreślenie przy najechaniu myszką */
+}
+
+.match-title a:visited {
+    color: inherit; /* Utrzymuje kolor po kliknięciu */
+    text-decoration: none; /* Usuwa podkreślenie po kliknięciu */
+}
+
+.match-title a:active {
+    color: inherit; /* Utrzymuje kolor podczas aktywności (kliknięcia) */
+    text-decoration: none; /* Usuwa podkreślenie podczas aktywności */
+}
+
+
+.score-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.score-entry img {
+    margin: 0 10px;
+}
+
+.score-entry input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.score-entry span {
+    margin: 0 5px;
+}
+
+.match.dark-mode span {
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin: 0 auto; /* Automatyczne marginesy po bokach, co wyśrodkuje element */
+    text-align: center; /* Wyśrodkowanie tekstu wewnątrz h2 */
+    padding: 20px 0; /* Dodanie paddingu dla lepszego wyglądu */
+    color: #f7f7f7;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 1.5em;
+}
+
+
+.ranking {
+    width: 20vw;
+    background-color: transparent;
+    position: fixed;
+    top: 125px;
+    right: 3vw;
+    height: 93.5vh;
+    overflow-y: auto;
+    z-index: 10;
+    padding: 0px;
+}
+
+.ranking table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; /* Wyśrodkuj tekst w komórkach */
+}
+
+.ranking th, .ranking td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ranking th {
+    background-color: #60adffbe;
+    color: white;
+}
+
+.ranking tbody tr:nth-child(odd) {
+    background-color: #f2f2f2c5;
+}
+
+.ranking tbody tr:nth-child(even) {
+    background-color: #ebebebed;
+}
+
+.ranking tr:hover td {
+    background-color: #fbfbfb;
+}
+
+/* dark mode tabela */
+
+.ranking.dark-mode th {
+    background-color: #000000be;
+    color: white;
+}
+
+.ranking.dark-mode tbody tr:nth-child(odd) {
+    background-color: #333333b7;
+    color: white;   
+}
+
+.ranking.dark-mode tbody tr:nth-child(even) {
+    background-color: #252525cb;
+    color: white;  
+}
+
+.ranking.dark-mode tr:hover td {
+    background-color: #1e1e1ecb;
+}
+
+.ranking.dark-mode th, .ranking.dark-mode td {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+
+
+h2 {
+    width: 74vw; /* Szerokość 74% szerokości viewportu */
+    margin: 70px auto 20px; /* Automatyczne marginesy po bokach, co wyśrodkuje element */
+    text-align: center; /* Wyśrodkowanie tekstu wewnątrz h2 */
+    padding: 0px 0; /* Dodanie paddingu dla lepszego wyglądu */
+    color: #f7f7f7;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h2.kolejka {
+    margin: 30px auto 0px; /* Automatyczne marginesy po bokach, co wyśrodkuje element */
+}
+
+h2.kolejka2 {
+    margin: 50px auto 0px; /* Automatyczne marginesy po bokach, co wyśrodkuje element */
+}
+
+
+h2.dataK {
+    margin: 40px auto 20px; /* Automatyczne marginesy po bokach, co wyśrodkuje element */
+}
+h2.dataK2 {
+    margin: 60px auto 20px; /* Automatyczne marginesy po bokach, co wyśrodkuje element */
+}
+
+#spacer {
+    height: 30px !important;
+    width: 100%; /* Zapewnia, że element zajmuje pełną szerokość */
+}
+
+.footer {
+    background-color: #333333b7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #60adff;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popup-title {
+    text-align: center;
+    margin-top: 0;
+    width: auto;
+}
+
+#popup-text {
+    text-align: center;
+}
+
+#example-table-1, #example-table-2 {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#example-table-1 th, #example-table-1 td, #example-table-2 td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#example-table-1 th {
+    background-color: #60adff;
+    color: white;
+}
+
+#example-table-1 td, #example-table-2 td {
+    background-color: #fcfcfc;
+}
+
+
+/* tło */
+/* 
+* tło */
+    .container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed; /* Upewnij się, że jest w tle */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Niższy z-index, aby był w tle */
+  }
+  
+  .background {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Upewnij się, że jest w tle */
+  }
+  
+  .circle-container {
+    position: fixed;
+    z-index: 2; /* Upewnij się, że jest nad tłem, ale pod zawartością strony */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    background-image: radial-gradient(
+      hsl(180, 100%, 80%),
+      hsl(180, 100%, 80%) 10%,
+      hsla(180, 100%, 80%, 0) 56%
+    );
+    animation: fadein-frames 2s infinite, scale-frames 2s infinite;
+  }
+  
+  @keyframes fadein-frames {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scale-frames {
+    0% {
+      transform: scale3d(0.4, 0.4, 1);
+    }
+    50% {
+      transform: scale3d(3, 3, 1);
+    }
+    100% {
+      transform: scale3d(0.4, 0.4, 1);
+    }
+  }
+  
+  @for $i from 1 through 100 {
+    .circle-container:nth-child(#{$i}) {
+      $circleSize: random(8);
+      width: $circleSize + px;
+      height: $circleSize + px;
+  
+      $startPositionY: random(10) + 100;
+      $framesName: "move-frames-" + $i;
+      $moveDuration: 28000 + random(9000) + ms;
+  
+      animation-name: #{$framesName};
+      animation-duration: $moveDuration;
+      animation-delay: random(37000) + ms;
+  
+      @keyframes #{$framesName} {
+        from {
+          transform: translate3d(random(100) + vw, $startPositionY + vh, 0) rotate(${random(30)}deg);
+        }
+        to {
+          transform: translate3d(random(100) + vw, -$startPositionY - random(30) + vh, 0) rotate(${random(30)}deg);
+        }
+      }
+  
+      .circle {
+        animation-delay: random(4000) + ms, scale-frames 2s infinite;
+      }
+    }
+  }
+  
+  /* Ustaw wyższy z-index dla zawartości strony */
+  .main-content {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;  
+    z-index: 10;  
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: .5px; /* Szerokość paska przewijania */
+}
+
+body.no-scrollbar {
+    scrollbar-width: thin; /* Firefox */
+    overflow: auto; /* Ustawienie przewijania na auto */
+}
+
+/* test */
+
+.flag {
+    width: 100px;
+    height: 75px;
+    object-fit: fill;
+    display: inline-block; /* Umożliwia lepsze dopasowanie w linii */
+    margin: 0 10px; /* Dodaj margines, jeśli chcesz przestrzeń między flagami a polami tekstowymi */
+}
+
+.flag1 {
+    width: 100px;
+    height: 88px;
+    object-fit: fill;
+    display: inline-block; /* Umożliwia lepsze dopasowanie w linii */
+    margin: 0 10px; /* Dodaj margines, jeśli chcesz przestrzeń między flagami a polami tekstowymi */
+}
+
+
+/* Tryb ciemny */
+.navbar.dark-mode {
+    background-color: #000000b7;
+    box-shadow: 0 3px 8px rgba(255, 255, 255, 0.4), 0 3px 5px rgba(255, 255, 255, 0.4);
+}
+
+.navbar-icon.dark-mode {
+    color: #e0e0e0;
+}
+
+.ranking-table.dark-mode {
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4), 0 6px 10px rgba(255, 255, 255, 0.4);
+}
+
+.ranking-table.dark-mode th {
+    background-color: #000000;
+    color: #e0e0e0;
+}
+
+.ranking-table.dark-mode td {
+    background-color: #1e1e1ecb;
+    color: #e0e0e0;
+}
+
+.ranking-table.dark-mode tr:nth-child(even) td {
+    background-color: #252525cb;
+}
+
+.footer.dark-mode {
+    background-color: #333333b7;
+    color: #e0e0e0;
+}
+
+.dark-mode .ranking-table tr:hover td {
+    background-color: #555; 
+}
+
+
+.match.dark-mode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(35vw - 10px); /* Szerokość połowy matches, uwzględniając odstęp */
+    background: #141414a2;
+    box-shadow: 0 1px 1px rgba(172, 172, 172, 0.5), 0 2px 2px rgba(172, 172, 172, 0.5);
+}
+
+.match.dark-mode h3 {
+    color: white;
+}
+
+
+/* przycisk */
+
+.fixed-buttons {
+    position: fixed;
+    top: 8.5vh;
+    right: .5vw;
+    z-index: 1001; /* Powyżej innych elementów */
+}
+
+#escape-button, #return-button {
+    font-size: 24px;
+    cursor: pointer;
+    color: transparent; /* Ukryte domyślnie */
+    transition: color 0.3s;
+}
+
+#escape-button:hover, #return-button:hover {
+    color: #000000; /* Kolor po najechaniu */
+}
+
+.matches-container.expanded {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.matches-container.expanded .match {
+    width: calc(38vw - 20px); /* Powiększ szerokość kafelków */
+    height: auto; /* Dopasuj wysokość do zawartości */
+}
+
+.ranking-placeholder.hidden {
+    display: none;
+}
+
+#nikos{
+    display: none;
+}

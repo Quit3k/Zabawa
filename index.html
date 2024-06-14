@@ -9,7 +9,7 @@
             height: 100%;
             margin: 0;
             font-family: Arial, sans-serif;
-            background: url('foto1.png') no-repeat center center fixed; 
+            background: url('flagiitp/foto1.png') no-repeat center center fixed; 
             background-size: cover;
         }
 
@@ -54,13 +54,13 @@
 </head>
 <body>
     <div class="login-container">
-        <form class="login-form">
+        <form class="login-form" id="login-form">
             <h2>Logowanie</h2>
-            <input type="text" placeholder="Nazwa użytkownika" required>
-            <input type="password" placeholder="Hasło" required>
+            <input type="text" id="username" placeholder="Nazwa użytkownika" required>
+            <input type="password" id="password" placeholder="Hasło" required>
             <button type="submit">Zaloguj się</button>
         </form>
     </div>
+    <script type="module" src="login.js"></script>
 </body>
 </html>
-
