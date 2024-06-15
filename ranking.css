@@ -446,3 +446,8 @@ body.no-scrollbar {
 .bold{
     font-weight: bold;
 }
+
+.green{
+    font-weight: bold;
+    color: rgb(0, 134, 0);
+}
