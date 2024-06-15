@@ -447,7 +447,7 @@ body.no-scrollbar {
     font-weight: bold;
 }
 
-.green{
+.ranking-table.dark-mode .green{
     font-weight: bold;
     color: rgb(0, 134, 0);
 }
