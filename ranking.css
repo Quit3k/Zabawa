@@ -442,3 +442,7 @@ body.no-scrollbar {
   #background-music {
     display: none;
 }
+
+.bold{
+    font-weight: bold;
+}
