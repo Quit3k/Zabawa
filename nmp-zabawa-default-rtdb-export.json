@@ -1,0 +1,1716 @@
+{
+  "matches": {
+    "match1": {
+      "predictions": {
+        "Bosho": {
+          "result": "3:0"
+        },
+        "Ernest": {
+          "result": "2:0"
+        },
+        "Eryk": {
+          "result": ""
+        },
+        "Erys": {
+          "result": "2:0"
+        },
+        "Mati": {
+          "result": "2:0"
+        },
+        "Milosz": {
+          "result": "3:0"
+        },
+        "Piotr": {
+          "result": "2:0"
+        },
+        "Wasyl": {
+          "result": "2:0"
+        },
+        "Wojtek": {
+          "result": "3:0"
+        }
+      },
+      "result": "5:1"
+    },
+    "match10": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:3"
+        },
+        "Ernest": {
+          "result": "0:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:2"
+        },
+        "Mati": {
+          "result": "0:2"
+        },
+        "Milosz": {
+          "result": "0:2"
+        },
+        "Piotr": {
+          "result": "0:1"
+        },
+        "Wasyl": {
+          "result": "1:3"
+        },
+        "Wojtek": {
+          "result": "0:3"
+        }
+      },
+      "result": "0:1"
+    },
+    "match11": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:1"
+        },
+        "Ernest": {
+          "result": "2:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "3:1"
+        },
+        "Mati": {
+          "result": "1:3"
+        },
+        "Milosz": {
+          "result": "1:2"
+        },
+        "Piotr": {
+          "result": "1:0"
+        },
+        "Wasyl": {
+          "result": "1:1"
+        },
+        "Wojtek": {
+          "result": "2:0"
+        }
+      },
+      "result": "3:1"
+    },
+    "match12": {
+      "predictions": {
+        "Bosho": {
+          "result": "3:2"
+        },
+        "Ernest": {
+          "result": "3:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "4:0"
+        },
+        "Mati": {
+          "result": "2:0"
+        },
+        "Milosz": {
+          "result": "2:0"
+        },
+        "Piotr": {
+          "result": "2:0"
+        },
+        "Wasyl": {
+          "result": "2:1"
+        },
+        "Wojtek": {
+          "result": "3:0"
+        }
+      },
+      "result": "2:1"
+    },
+    "match13": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:1"
+        },
+        "Ernest": {
+          "result": "2:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "2:1"
+        },
+        "Milosz": {
+          "result": "3:0"
+        },
+        "Piotr": {
+          "result": "2:0"
+        },
+        "Wasyl": {
+          "result": "2:0"
+        },
+        "Wojtek": {
+          "result": "2:1"
+        }
+      },
+      "result": "2:2"
+    },
+    "match14": {
+      "predictions": {
+        "Bosho": {
+          "result": "3:0"
+        },
+        "Ernest": {
+          "result": "3:0"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:0"
+        },
+        "Mati": {
+          "result": "3:0"
+        },
+        "Milosz": {
+          "result": "3:1"
+        },
+        "Piotr": {
+          "result": "3:1"
+        },
+        "Wasyl": {
+          "result": "4:0"
+        },
+        "Wojtek": {
+          "result": "3:0"
+        }
+      },
+      "result": "2:0"
+    },
+    "match15": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:2"
+        },
+        "Ernest": {
+          "result": "1:3"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:2"
+        },
+        "Mati": {
+          "result": "1:2"
+        },
+        "Milosz": {
+          "result": "1:2"
+        },
+        "Piotr": {
+          "result": "1:2"
+        },
+        "Wasyl": {
+          "result": "1:2"
+        },
+        "Wojtek": {
+          "result": "1:2"
+        }
+      },
+      "result": "1:1"
+    },
+    "match16": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:2"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:0"
+        },
+        "Mati": {
+          "result": "1:2"
+        },
+        "Milosz": {
+          "result": "-:-"
+        },
+        "Piotr": {
+          "result": "0:1"
+        },
+        "Wasyl": {
+          "result": "1:1"
+        },
+        "Wojtek": {
+          "result": "1:1"
+        }
+      },
+      "result": "1:1"
+    },
+    "match17": {
+      "predictions": {
+        "Bosho": {
+          "result": "0:2"
+        },
+        "Ernest": {
+          "result": "0:3"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:3"
+        },
+        "Mati": {
+          "result": "1:3"
+        },
+        "Milosz": {
+          "result": "0:3"
+        },
+        "Piotr": {
+          "result": "0:1"
+        },
+        "Wasyl": {
+          "result": "1:2"
+        },
+        "Wojtek": {
+          "result": "0:2"
+        }
+      },
+      "result": "1:1"
+    },
+    "match18": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:2"
+        },
+        "Ernest": {
+          "result": "2:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "3:1"
+        },
+        "Mati": {
+          "result": "2:2"
+        },
+        "Milosz": {
+          "result": "2:0"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "2:1"
+        },
+        "Wojtek": {
+          "result": "2:2"
+        }
+      },
+      "result": "1:0"
+    },
+    "match19": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:1"
+        },
+        "Ernest": {
+          "result": "-:-"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:2"
+        },
+        "Mati": {
+          "result": "-:-"
+        },
+        "Milosz": {
+          "result": "1:1"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "1:0"
+        },
+        "Wojtek": {
+          "result": "1:0"
+        }
+      },
+      "result": "1:2"
+    },
+    "match2": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:2"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:1"
+        },
+        "Mati": {
+          "result": "1:1"
+        },
+        "Milosz": {
+          "result": "0:2"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "1:1"
+        },
+        "Wojtek": {
+          "result": "1:1"
+        }
+      },
+      "result": "1:3"
+    },
+    "match20": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:1"
+        },
+        "Ernest": {
+          "result": "1:0"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "2:0"
+        },
+        "Milosz": {
+          "result": "0:2"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "1:1"
+        },
+        "Wojtek": {
+          "result": "2:1"
+        }
+      },
+      "result": "1:3"
+    },
+    "match21": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:2"
+        },
+        "Ernest": {
+          "result": "1:3"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:2"
+        },
+        "Mati": {
+          "result": "2:1"
+        },
+        "Milosz": {
+          "result": "0:2"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "1:2"
+        },
+        "Wojtek": {
+          "result": "1:2"
+        }
+      },
+      "result": "0:0"
+    },
+    "match22": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:2"
+        },
+        "Ernest": {
+          "result": "0:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "-:-"
+        },
+        "Milosz": {
+          "result": "1:1"
+        },
+        "Piotr": {
+          "result": "1:2"
+        },
+        "Wasyl": {
+          "result": "1:2"
+        },
+        "Wojtek": {
+          "result": "0:2"
+        }
+      },
+      "result": "1:1"
+    },
+    "match23": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:2"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:3"
+        },
+        "Mati": {
+          "result": "0:2"
+        },
+        "Milosz": {
+          "result": "0:2"
+        },
+        "Piotr": {
+          "result": "1:2"
+        },
+        "Wasyl": {
+          "result": "0:2"
+        },
+        "Wojtek": {
+          "result": "1:2"
+        }
+      },
+      "result": "0:3"
+    },
+    "match24": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:0"
+        },
+        "Ernest": {
+          "result": "3:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "3:0"
+        },
+        "Mati": {
+          "result": "1:0"
+        },
+        "Milosz": {
+          "result": "1:0"
+        },
+        "Piotr": {
+          "result": "2:1"
+        },
+        "Wasyl": {
+          "result": "1:1"
+        },
+        "Wojtek": {
+          "result": "2:1"
+        }
+      },
+      "result": "2:0"
+    },
+    "match25": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:2"
+        },
+        "Ernest": {
+          "result": "2:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "2:1"
+        },
+        "Milosz": {
+          "result": "1:2"
+        },
+        "Piotr": {
+          "result": "2:1"
+        },
+        "Wasyl": {
+          "result": "1:1"
+        },
+        "Wojtek": {
+          "result": "1:1"
+        }
+      },
+      "result": "0:1"
+    },
+    "match26": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:3"
+        },
+        "Ernest": {
+          "result": "1:3"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:2"
+        },
+        "Mati": {
+          "result": "1:2"
+        },
+        "Milosz": {
+          "result": "0:3"
+        },
+        "Piotr": {
+          "result": "0:3"
+        },
+        "Wasyl": {
+          "result": "1:3"
+        },
+        "Wojtek": {
+          "result": "1:2"
+        }
+      },
+      "result": "1:1"
+    },
+    "match27": {
+      "predictions": {
+        "Bosho": {
+          "result": "-:-"
+        },
+        "Ernest": {
+          "result": "0:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:4"
+        },
+        "Mati": {
+          "result": "0:2"
+        },
+        "Milosz": {
+          "result": "0:3"
+        },
+        "Piotr": {
+          "result": "0:2"
+        },
+        "Wasyl": {
+          "result": "0:3"
+        },
+        "Wojtek": {
+          "result": "-:-"
+        }
+      },
+      "result": "0:1"
+    },
+    "match28": {
+      "predictions": {
+        "Bosho": {
+          "result": "-:-"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "1:2"
+        },
+        "Milosz": {
+          "result": "1:2"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "1:2"
+        },
+        "Wojtek": {
+          "result": "-:-"
+        }
+      },
+      "result": "1:1"
+    },
+    "match29": {
+      "predictions": {
+        "Bosho": {
+          "result": "3:0"
+        },
+        "Ernest": {
+          "result": "3:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "3:0"
+        },
+        "Mati": {
+          "result": "3:0"
+        },
+        "Milosz": {
+          "result": "3:0"
+        },
+        "Piotr": {
+          "result": "2:0"
+        },
+        "Wasyl": {
+          "result": "3:0"
+        },
+        "Wojtek": {
+          "result": "2:0"
+        }
+      },
+      "result": "1:1"
+    },
+    "match3": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:2"
+        },
+        "Ernest": {
+          "result": "3:0"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:0"
+        },
+        "Mati": {
+          "result": "2:1"
+        },
+        "Milosz": {
+          "result": "4:0"
+        },
+        "Piotr": {
+          "result": "1:0"
+        },
+        "Wasyl": {
+          "result": "1:2"
+        },
+        "Wojtek": {
+          "result": "2:1"
+        }
+      },
+      "result": "3:0"
+    },
+    "match30": {
+      "predictions": {
+        "Bosho": {
+          "result": "2:1"
+        },
+        "Ernest": {
+          "result": "1:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:1"
+        },
+        "Mati": {
+          "result": "1:0"
+        },
+        "Milosz": {
+          "result": "1:1"
+        },
+        "Piotr": {
+          "result": "2:1"
+        },
+        "Wasyl": {
+          "result": "3:1"
+        },
+        "Wojtek": {
+          "result": "2:1"
+        }
+      },
+      "result": "2:3"
+    },
+    "match31": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:0"
+        },
+        "Ernest": {
+          "result": "3:0"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "3:0"
+        },
+        "Mati": {
+          "result": "2:0"
+        },
+        "Milosz": {
+          "result": "2:0"
+        },
+        "Piotr": {
+          "result": "2:0"
+        },
+        "Wasyl": {
+          "result": "2:0"
+        },
+        "Wojtek": {
+          "result": "0:0"
+        }
+      },
+      "result": "0:0"
+    },
+    "match32": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:1"
+        },
+        "Ernest": {
+          "result": "2:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:1"
+        },
+        "Mati": {
+          "result": "2:0"
+        },
+        "Milosz": {
+          "result": "0:1"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "1:0"
+        },
+        "Wojtek": {
+          "result": "2:1"
+        }
+      },
+      "result": "0:0"
+    },
+    "match33": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:2"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:1"
+        },
+        "Mati": {
+          "result": "0:2"
+        },
+        "Milosz": {
+          "result": "1:1"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "2:1"
+        },
+        "Wojtek": {
+          "result": "1:1"
+        }
+      },
+      "result": "1:1"
+    },
+    "match34": {
+      "predictions": {
+        "Bosho": {
+          "result": "0:3"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "1:2"
+        },
+        "Mati": {
+          "result": "1:2"
+        },
+        "Milosz": {
+          "result": "0:1"
+        },
+        "Piotr": {
+          "result": "1:2"
+        },
+        "Wasyl": {
+          "result": "0:2"
+        },
+        "Wojtek": {
+          "result": "0:2"
+        }
+      },
+      "result": "0:0"
+    },
+    "match35": {
+      "predictions": {
+        "Bosho": {
+          "result": "0:2"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "2:1"
+        },
+        "Milosz": {
+          "result": "1:2"
+        },
+        "Piotr": {
+          "result": "1:1"
+        },
+        "Wasyl": {
+          "result": "1:1"
+        },
+        "Wojtek": {
+          "result": "1:2"
+        }
+      },
+      "result": "1:2"
+    },
+    "match36": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:3"
+        },
+        "Ernest": {
+          "result": "0:3"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:3"
+        },
+        "Mati": {
+          "result": "0:3"
+        },
+        "Milosz": {
+          "result": "0:3"
+        },
+        "Piotr": {
+          "result": "0:3"
+        },
+        "Wasyl": {
+          "result": "0:3"
+        },
+        "Wojtek": {
+          "result": "0:3"
+        }
+      },
+      "result": "2:0"
+    },
+    "match37": {
+      "predictions": {
+        "Bosho": {
+          "result": ""
+        },
+        "Ernest": {
+          "result": ""
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": ""
+        },
+        "Mati": {
+          "result": ""
+        },
+        "Milosz": {
+          "result": ""
+        },
+        "Piotr": {
+          "result": ""
+        },
+        "Wasyl": {
+          "result": ""
+        },
+        "Wojtek": {
+          "result": ""
+        }
+      },
+      "result": ""
+    },
+    "match4": {
+      "predictions": {
+        "Bosho": {
+          "result": "3:1"
+        },
+        "Ernest": {
+          "result": "2:0"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "2:0"
+        },
+        "Milosz": {
+          "result": "5:0"
+        },
+        "Piotr": {
+          "result": "2:0"
+        },
+        "Wasyl": {
+          "result": "2:0"
+        },
+        "Wojtek": {
+          "result": "2:0"
+        }
+      },
+      "result": "2:1"
+    },
+    "match5": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:3"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "2:1"
+        },
+        "Mati": {
+          "result": "1:3"
+        },
+        "Milosz": {
+          "result": "2:1"
+        },
+        "Piotr": {
+          "result": "0:2"
+        },
+        "Wasyl": {
+          "result": "1:2"
+        },
+        "Wojtek": {
+          "result": "0:2"
+        }
+      },
+      "result": "1:2"
+    },
+    "match6": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:3"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:3"
+        },
+        "Mati": {
+          "result": "1:3"
+        },
+        "Milosz": {
+          "result": "2:1"
+        },
+        "Piotr": {
+          "result": "0:1"
+        },
+        "Wasyl": {
+          "result": "0:2"
+        },
+        "Wojtek": {
+          "result": "0:1"
+        }
+      },
+      "result": "1:1"
+    },
+    "match7": {
+      "predictions": {
+        "Bosho": {
+          "result": "0:3"
+        },
+        "Ernest": {
+          "result": "0:4"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:4"
+        },
+        "Mati": {
+          "result": "0:3"
+        },
+        "Milosz": {
+          "result": "0:4"
+        },
+        "Piotr": {
+          "result": "0:2"
+        },
+        "Wasyl": {
+          "result": "0:3"
+        },
+        "Wojtek": {
+          "result": "1:3"
+        }
+      },
+      "result": "0:1"
+    },
+    "match8": {
+      "predictions": {
+        "Bosho": {
+          "result": "1:2"
+        },
+        "Ernest": {
+          "result": "1:2"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "0:4"
+        },
+        "Mati": {
+          "result": "0:2"
+        },
+        "Milosz": {
+          "result": "1:1"
+        },
+        "Piotr": {
+          "result": "0:1"
+        },
+        "Wasyl": {
+          "result": "0:1"
+        },
+        "Wojtek": {
+          "result": "1:1"
+        }
+      },
+      "result": "3:0"
+    },
+    "match9": {
+      "predictions": {
+        "Bosho": {
+          "result": "3:0"
+        },
+        "Ernest": {
+          "result": "3:1"
+        },
+        "Eryk": "",
+        "Erys": {
+          "result": "3:0"
+        },
+        "Mati": {
+          "result": "3:0"
+        },
+        "Milosz": {
+          "result": "3:1"
+        },
+        "Piotr": {
+          "result": "1:0"
+        },
+        "Wasyl": {
+          "result": "3:1"
+        },
+        "Wojtek": {
+          "result": "3:0"
+        }
+      },
+      "result": "0:1"
+    }
+  },
+  "points": {
+    "Bosho": {
+      "18": 0,
+      "1kolejka": {
+        "points": 2
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 1
+      },
+      "overall": 0,
+      "polfinały": 0
+    },
+    "Ernest": {
+      "18": 0,
+      "1kolejka": {
+        "points": 3
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 1
+      },
+      "overall": 0,
+      "polfinały": 0
+    },
+    "Eryk": {
+      "18": 0,
+      "1kolejka": {
+        "points": 0
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 0
+      },
+      "overall": 0,
+      "polfinały": 0
+    },
+    "Erys": {
+      "1kolejka": {
+        "points": 2
+      },
+      "match1": {
+        "points": 1
+      }
+    },
+    "Mati": {
+      "18": 0,
+      "1kolejka": {
+        "points": 2
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 1
+      },
+      "overall": 0,
+      "polfinały": 0
+    },
+    "Milosz": {
+      "18": 0,
+      "1kolejka": {
+        "points": 2
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 1
+      },
+      "overall": 0,
+      "polfinały": 0
+    },
+    "Piotr": {
+      "18": 0,
+      "1kolejka": {
+        "points": 2
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 1
+      },
+      "overall": 0,
+      "polfinały": 0
+    },
+    "Wasyl": {
+      "18": 0,
+      "1kolejka": {
+        "points": 2
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 1
+      },
+      "overall": 0,
+      "polfinały": 0
+    },
+    "Wojtek": {
+      "18": 0,
+      "1kolejka": {
+        "points": 2
+      },
+      "2kolejka": 0,
+      "3kolejka": 0,
+      "cwiercfinaly": 0,
+      "finaly": 0,
+      "match1": {
+        "points": 1
+      },
+      "overall": 0,
+      "polfinały": 0
+    }
+  },
+  "pointsAwarded": {
+    "Bosho": {
+      "match1": {
+        "match1": false
+      },
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    },
+    "Ernest": {
+      "match1": {
+        "match1": false
+      },
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    },
+    "Eryk": {
+      "match1": {
+        "match1": false
+      },
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    },
+    "Mati": {
+      "match1": false,
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    },
+    "Milosz": {
+      "match1": false,
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    },
+    "Piotr": {
+      "match1": false,
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    },
+    "Wasyl": {
+      "match1": false,
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    },
+    "Wojtek": {
+      "match1": false,
+      "match10": false,
+      "match11": false,
+      "match12": false,
+      "match13": false,
+      "match14": false,
+      "match15": false,
+      "match16": false,
+      "match17": false,
+      "match18": false,
+      "match19": false,
+      "match2": false,
+      "match20": false,
+      "match21": false,
+      "match22": false,
+      "match23": false,
+      "match24": false,
+      "match25": false,
+      "match26": false,
+      "match27": false,
+      "match28": false,
+      "match29": false,
+      "match3": false,
+      "match30": false,
+      "match31": false,
+      "match32": false,
+      "match33": false,
+      "match34": false,
+      "match35": false,
+      "match36": false,
+      "match37": false,
+      "match38": false,
+      "match39": false,
+      "match4": false,
+      "match40": false,
+      "match41": false,
+      "match42": false,
+      "match43": false,
+      "match44": false,
+      "match45": false,
+      "match46": false,
+      "match47": false,
+      "match48": false,
+      "match49": false,
+      "match5": false,
+      "match50": false,
+      "match51": false,
+      "match6": false,
+      "match7": false,
+      "match8": false,
+      "match9": false
+    }
+  },
+  "users": {
+    "Admin": {
+      "password": "adminpass21",
+      "role": "admin"
+    },
+    "Bosho": {
+      "password": "user4pass",
+      "role": "user"
+    },
+    "Ernest": {
+      "password": "gogogunners",
+      "role": "user"
+    },
+    "Erys": {
+      "password": "password123",
+      "role": "user"
+    },
+    "Mati": {
+      "password": "youshallnotpassword",
+      "role": "user"
+    },
+    "Milosz": {
+      "password": "doktor69",
+      "role": "user"
+    },
+    "Piotr": {
+      "password": "maga2024",
+      "role": "user"
+    },
+    "Wasyl": {
+      "password": "undertaker",
+      "role": "user"
+    },
+    "Wojtek": {
+      "password": "mentzensa",
+      "role": "user"
+    }
+  }
+}
