@@ -503,3 +503,7 @@ body.no-scrollbar {
     width: 85.5vw;
 }
 }
+
+.red {
+    color: red;
+}
